@@ -1,0 +1,21 @@
+{
+  "d_model": 64,
+  "num_heads": 2,
+  "num_encoder_layers": 2,
+  "num_decoder_layers": 2,
+  "d_ff": 256,
+  "dropout": 0.1,
+  "batch_size": 32,
+  "learning_rate": 0.0003,
+  "epochs": 20,
+  "seq_length": 50,
+  "seed": 42,
+  "data_path": "D:\\1_Learn_Bjtu\\Model_Work\\data\\tiny_shakespeare.txt",
+  "grad_clip": 1.0,
+  "scheduler": "cosine",
+  "weight_decay": 0.01,
+  "use_cuda": true,
+  "step_size": 10,
+  "gamma": 0.8,
+  "warmup_steps": 5
+}
